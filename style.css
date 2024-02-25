@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    background-color:#ccd3ca;
+    
+    background-repeat: no-repeat;
+    font-family: "Hind", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#vinay{
+    background-color:#b5c0d0;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    text-shadow:1px 1px #fff
+
+}
+#image-main-container{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    box-shadow: 5px 5px #b5c0d0;
+    padding:10px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:10px;
+    justify-content:center;
+    border-radius: 7px;
+    overflow:hidden;
+}
+#image-main{
+    width:80%;
+    /* height:80%; */
+
+}
+#argha-main-container{
+    display:flex;
+    width:25%;
+    box-shadow: 5px 5px #b5c0d0;
+    padding:10px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight: 400;
+    border-radius: 7px;
+    font-size: .5rem;
+    flex-direction: column;
+    align-items: center;
+}
+#myVideo {
+    /* position: fixed; */
+    /* right: 0;
+    bottom: 0;
+    top:0;
+    left:0; */
+    width: 80%;
+    /* z-index:-1; */
+    /* height: 100%; */
+  }
+.video-container{
+    padding:10px;
+    display: flex;
+    justify-content:center;
+}
+#vinay2{
+    text-decoration: none;
+    color:black;
+}
+#img-container{
+    display:flex;
+    /* flex-direction: column; */
+    width:100%;
+    justify-content:center;
+    
+}
